@@ -3,3 +3,4 @@ countrate = txt.count("bananas")
 print(countrate)
 x = txt.replace("bananas", "apples")
 print(x)
+# pseudocode
