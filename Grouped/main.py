@@ -1,3 +1,4 @@
+
 class Node:
     def __init__(self, value):
         self.value = value
@@ -27,3 +28,15 @@ class BinaryTree:
                         return
                     else:
                         current_node = current_node.right
+"""
+program for bubblesort for ascending
+"""
+def bubblesort(list):
+    for i in range(0,len(list)):
+        for j in range(i+1,len(list)):
+            if list[i]>list[j]:
+                list[i],list[j]=list[j],list[i]
+list=[-2,3,4,1,5,0,-1]
+bubblesort(list)
+print("the sorted list in ascending order:",list)
+
