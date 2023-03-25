@@ -64,7 +64,7 @@ print(result_dict)
 
 
 
-<<<<<<< HEAD
+
 '''Program to find whether two strings are anagram of each other'''
 
 def anagram(s1,s2):
@@ -75,10 +75,7 @@ def anagram(s1,s2):
     return s1==s2
 s1="care"
 s2="race"
-print(anagram(s1,s2))
 
-=======
->>>>>>> 7700d94 (ragamalaya code removed)
 """ASWATHI-------,PROGRAM FOR INSERTION SORT ALGORITHM"""
 l=[2,43,12,7,23]
 for i in range(len(l)):
