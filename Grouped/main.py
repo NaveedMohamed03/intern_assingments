@@ -64,14 +64,6 @@ print(result_dict)
 
 
 
-"""ASWATHI-------,PROGRAM FOR INSERTION SORT ALGORITHM"""
-l=[2,43,12,7,23]
-for i in range(len(l)):
-    for j in range(i+1):
-        if l[i]<l[j]:
-            l[i],l[j]=l[j],l[i]
-print(l)
-
 '''Program to find whether two strings are anagram of each other'''
 
 def anagram(s1,s2):
@@ -83,4 +75,12 @@ def anagram(s1,s2):
 s1="care"
 s2="race"
 print(anagram(s1,s2))
+
+"""ASWATHI-------,PROGRAM FOR INSERTION SORT ALGORITHM"""
+l=[2,43,12,7,23]
+for i in range(len(l)):
+    for j in range(i+1):
+        if l[i]<l[j]:
+            l[i],l[j]=l[j],l[i]
+print(l)
 
