@@ -51,6 +51,24 @@ list=[-2,3,4,1,5,0,-1]
 bubblesort(list)
 print("the sorted list in ascending order:",list)
 
+#Vishnu code
+def aggregate_dicts(list_of_dicts):
+    result_dict = {}
+    for i in list_of_dicts:
+        for key, value in i.items():
+            if key in result_dict:
+                result_dict[key].append(value)
+            else:
+                result_dict[key] = [value]
+    for key, value in result_dict.items():
+        result_dict[key] = sum(value)
+    return result_dict
+list_of_dicts = [
+    {'a': 1, 'b': 2, 'c': 3},
+    {'a': 4, 'c': 2, 'd': 4},
+    {'c': 3, 'b': 8, 'e': 9}]
+result_dict = aggregate_dicts(list_of_dicts)
+print(result_dict)
 
 
 
