@@ -30,14 +30,6 @@ class BinaryTree:
                         current_node = current_node.right
 
 
-"""ASWATHI-------,PROGRAM FOR INSERTION SORT ALGORITHM"""
-l=[2,43,12,7,23]
-for i in range(len(l)):
-    for j in range(i+1):
-        if l[i]<l[j]:
-            l[i],l[j]=l[j],l[i]
-print(l)
-
 """
 QUESTION:
 Write a program for implementing bubblesort for ascending
