@@ -40,3 +40,11 @@ list=[-2,3,4,1,5,0,-1]
 bubblesort(list)
 print("the sorted list in ascending order:",list)
 
+
+"""ASWATHI-------,PROGRAM FOR INSERTION SORT ALGORITHM"""
+l=[2,43,12,7,23]
+for i in range(len(l)):
+    for j in range(i+1):
+        if l[i]<l[j]:
+            l[i],l[j]=l[j],l[i]
+print(l)
