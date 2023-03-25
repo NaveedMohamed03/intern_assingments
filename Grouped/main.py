@@ -52,7 +52,7 @@ bubblesort(list)
 print("the sorted list in ascending order:",list)
 
 #Vishnu code
-def aggregate_dicts(list_of_dicts):
+def aggregated_dicts(list_of_dicts):
     result_dict = {}
     for i in list_of_dicts:
         for key, value in i.items():
