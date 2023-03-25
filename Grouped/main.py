@@ -29,7 +29,8 @@ class BinaryTree:
                     else:
                         current_node = current_node.right
 """
-program for bubblesort for ascending
+QUESTION:
+Write a program for implementing bubblesort for ascending
 """
 def bubblesort(list):
     for i in range(0,len(list)):
