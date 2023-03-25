@@ -41,6 +41,7 @@ bubblesort(list)
 print("the sorted list in ascending order:",list)
 
 
+
 """ASWATHI-------,PROGRAM FOR INSERTION SORT ALGORITHM"""
 l=[2,43,12,7,23]
 for i in range(len(l)):
@@ -48,3 +49,16 @@ for i in range(len(l)):
         if l[i]<l[j]:
             l[i],l[j]=l[j],l[i]
 print(l)
+
+'''Program to find whether two strings are anagram of each other'''
+
+def anagram(s1,s2):
+    if len(s1)!=len(s2):
+        return False
+    s1=sorted(s1)
+    s2=sorted(s2)
+    return s1==s2
+s1="care"
+s2="race"
+print(anagram(s1,s2))
+
