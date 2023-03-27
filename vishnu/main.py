@@ -18,6 +18,7 @@ psuedocode:
 First write def function 
 Then by using for loop iteration takes place 
 After iteration we give string
-And call that function 
-Finally print the output"""
+ 
+
+added the new line"""
 
