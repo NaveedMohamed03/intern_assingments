@@ -12,7 +12,6 @@ def find_first_non_repeating_char(string):
 string = "Rolls Royce"
 result = find_first_non_repeating_char(string)
 print(result)
-
 """
 psuedocode:
 First write def function 

@@ -1,3 +1,5 @@
+
+
 txt="my car is blue and car number 6220"
 list=txt.split(" ")
 for i in list:
