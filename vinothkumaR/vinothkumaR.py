@@ -4,8 +4,6 @@ for i in range(0,len(l)):
         if len(l[i])<len(l[j]):
             l[i],l[j]=l[j],l[i]                            #3.After sorting print the firts string inthe sorted list
 print(l[0])
-
-
 """
 questions:
 1.print the largest string in  the list"""
